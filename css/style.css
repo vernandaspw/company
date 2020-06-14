@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    /* homepage */
+    margin: 0;
+    color: whitesmoke;
+    height: 5219px;
+
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+.navbar-brand {
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
+.navbar {
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #ff00cc);
+
+}
+
+.navbar a {
+    color: whitesmoke;
+}
+
+/* halaman */
+.halhome {
+    margin-top: 120px;
+}
+
+.halabout {
+    margin-top: 100px;
+}
+
+.halproduct {
+    margin-top: 100px;
+}
+
+/* end halaman */
+@media (min-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #00b1e9;
+    }
+
+    ::-webkit-scrollbar-button:start:decrement,
+    ::-webkit-scrollbar-button:end:increment {
+        background: #00b1e9;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .homeimg {
+        visibility: hidden;
+    }
+}
+
+.getstar {
+    animate__tada;
+}
