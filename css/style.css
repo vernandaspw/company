@@ -7,7 +7,6 @@ body {
     margin: 0;
     color: whitesmoke;
     height: 5219px;
-
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc);
@@ -23,7 +22,6 @@ body {
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc);
-
 }
 
 .navbar a {
@@ -31,6 +29,7 @@ body {
 }
 
 /* halaman */
+
 .halhome {
     padding-top: 0;
     height: 640px;
@@ -46,40 +45,33 @@ body {
 }
 
 /* end halaman */
+
 @media (min-width: 992px) {
     ::-webkit-scrollbar {
         width: 8px;
     }
-
     ::-webkit-scrollbar-track {
         background: white;
     }
-
     ::-webkit-scrollbar-thumb {
         background: #00b1e9;
     }
-
-    ::-webkit-scrollbar-button:start:decrement,
-    ::-webkit-scrollbar-button:end:increment {
+    ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
         background: #00b1e9;
     }
-
 }
 
 @media (max-width: 575.98px) {
     .konten {
         margin-top: 340px;
     }
-
     .hom {
         margin-top: -540px;
     }
-
     .homeimg {
         width: 200px;
         height: 200px;
     }
-
     .imgabot {}
 }
 
