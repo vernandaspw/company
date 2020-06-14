@@ -37,7 +37,7 @@ body {
 }
 
 .halabout {
-    margin-top: 100px;
+    margin-top: -30px;
 }
 
 .halproduct {
@@ -77,4 +77,65 @@ body {
 
 .navbar-toggler {
     border-color: rgb(255, 102, 203);
+}
+
+.ab {
+    visibility: hidden;
+}
+
+.abt {
+    margin-top: 90px;
+}
+
+.pr {
+    visibility: hidden;
+}
+
+.prd {
+    margin-top: 20px;
+}
+
+.tsp {
+    margin-top: 50px;
+}
+
+.iconproduk {
+    padding-top: 25px;
+    width: 100px;
+}
+
+.sukaabsen {
+    height: 124px;
+}
+
+.kasiran {
+    height: 150px;
+}
+
+.cdproduk {
+    font-family: "roboto";
+    height: 400px;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+}
+
+.cdproduk:hover {
+    -webkit-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
+}
+
+.btn {
+    border: 0px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    -webkit-box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
+    -moz-box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
+    box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
 }
