@@ -32,7 +32,9 @@ body {
 
 /* halaman */
 .halhome {
-    margin-top: 120px;
+    padding-top: 0;
+    height: 640px;
+    background-color: ;
 }
 
 .halabout {
@@ -65,11 +67,22 @@ body {
 }
 
 @media (max-width: 575.98px) {
-    .homeimg {
-        visibility: hidden;
+    .konten {
+        margin-top: 340px;
     }
 
-    .imgabot {
-        visibility: hidden;
+    .hom {
+        margin-top: -540px;
     }
+
+    .homeimg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgabot {}
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 102, 203);
 }
