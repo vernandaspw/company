@@ -13,6 +13,7 @@ body {
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc);
+    background-repeat: no-repeat;
 }
 
 .navbar-brand {
