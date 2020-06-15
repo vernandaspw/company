@@ -4,7 +4,7 @@ html {
 
 body {
     /* homepage */
-    height: 6000px;
+    height: 3500px;
     margin: 0;
     color: whitesmoke;
     background: #ff00cc;
@@ -126,7 +126,7 @@ body {
 }
 
 .cdlyn {
-    border-radius: 0px;
+    border-radius: 70px;
     background: none;
     border: none;
     color: white;
