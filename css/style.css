@@ -4,9 +4,9 @@ html {
 
 body {
     /* homepage */
+    height: 6000px;
     margin: 0;
     color: whitesmoke;
-    height: 5219px;
     background: #ff00cc;
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc);
@@ -33,7 +33,6 @@ body {
 .halhome {
     padding-top: 0;
     height: 640px;
-    background-color: ;
 }
 
 .halabout {
@@ -72,7 +71,6 @@ body {
         width: 200px;
         height: 200px;
     }
-    .imgabot {}
 }
 
 .navbar-toggler {
@@ -123,6 +121,23 @@ body {
     border: 0px solid #000000;
 }
 
+.hallayanan {
+    padding-top: 100px;
+}
+
+.cdlyn {
+    border-radius: 0px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.cdlyn:hover {
+    -webkit-box-shadow: inset 0px 7px 18px 6px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0px 7px 18px 6px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 7px 18px 6px rgba(255, 255, 255, 1);
+}
+
 .cdproduk:hover {
     -webkit-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
     -moz-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
@@ -138,4 +153,89 @@ body {
     -webkit-box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
     -moz-box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
     box-shadow: inset 0px 7px 300px 200px rgba(0, 255, 0, 1);
+}
+
+.hallayanan a:hover {
+    text-decoration: none;
+}
+
+.halfolio .nav-item a {
+    color: white;
+    margin: 2px;
+}
+
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(88, 70, 249, 0.8);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+
+.halfolio img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.figure {
+    position: relative;
+}
+
+.figure-img .konteks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    background-color: rgb(15, 98, 254, 65%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.figure-img .konteks:hover {
+    opacity: 1;
+}
+
+.borfol {
+    border: 0px;
+    background-color: rgb(51, 133, 255);
+    border-radius: 30px;
+}
+
+.halfolio {
+    padding-top: 140px;
+}
+
+.svg {
+    color: white;
+}
+
+.halkontak {
+    padding-top: 130px;
+}
+
+.kontak a {
+    text-decoration: none;
+    color: white;
 }
