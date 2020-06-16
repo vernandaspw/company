@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-2 active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">awfwf</span></a>
+                        <a class="nav-link active" href="#">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#halabout">About</a>
@@ -255,293 +255,568 @@
     <section class="halfolio" id="halfolio">
         <div class="container borfol shadow-lg">
             <h2 class="text-center pt-4 jdlfo">PORTFOLIO</h2>
-            <div class="row d-fex justify-content-center pb-2">
-                <div class="col-md p-2">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="collapse" href=".multic">All</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="collapse" href="#web">Web</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="collapse" href="#app">App</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="collapse" href="#design">Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="collapse" href="#photo">Photo</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--  web -->
-            <div class="row d-fex justify-content-center collapse multic" id="web">
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/web1.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Latihan baru</h4>
-                                    <p>Web</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                        aria-controls="pills-all" aria-selected="true">All</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab"
+                        aria-controls="pills-web" aria-selected="false">Web</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-app-tab" data-toggle="pill" href="#pills-app" role="tab"
+                        aria-controls="pills-app" aria-selected="false">App</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-design-tab" data-toggle="pill" href="#pills-design" role="tab"
+                        aria-controls="pills-design" aria-selected="false">Design</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-photo-tab" data-toggle="pill" href="#pills-photo" role="tab"
+                        aria-controls="pills-photo" aria-selected="false">Photo</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <!-- all -->
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Latihan baru</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/web2.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>dev shop</h4>
-                                    <p>Web</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web2.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>dev shop</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/web3.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Bootstrao</h4>
-                                    <p>Web</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web3.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Bootstrao</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-            </div>
-            <!-- app -->
-            <div class="row d-fex justify-content-center collapse multic" id="app">
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/hp1.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Shop</h4>
-                                    <p>Apps</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                    </div>
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Shop</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/hp2.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Dashboard</h4>
-                                    <p>Apps</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp2.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Dashboard</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/hp3.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>UIUX login</h4>
-                                    <p>Apps</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp3.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>UIUX login</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-            </div>
-            <!-- design -->
-            <div class="row d-fex justify-content-center collapse multic" id="design">
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/ayu.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Brosur wom</h4>
-                                    <p>Desgin</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                    </div>
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/ayu.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Brosur wom</h4>
+                                            <p>Desgin</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/doni brosur1.png" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Brosur</h4>
-                                    <p>Design</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/doni brosur1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Brosur</h4>
+                                            <p>Design</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/dika.jpg" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Kaos</h4>
-                                    <p>Design</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/dika.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Kaos</h4>
+                                            <p>Design</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-            </div>
-            <!-- photo -->
-            <div class="row d-fex justify-content-center collapse multic" id="photo">
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/off1.jpg" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>kantor okela</h4>
-                                    <p>Photo</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                    </div>
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off1.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>kantor okela</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/off2.jpg" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>Room mantap</h4>
-                                    <p>Photo</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off2.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Room mantap</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
-                </div>
-                <div class="col-md p-3">
-                    <figure class="figure">
-                        <div class="figure-img">
-                            <img src="img/off3.jpg" class="figure-img img-fluid rounded" alt="">
-                            <div class="konteks d-flex justify-content-center">
-                                <div class="titel align-self-center text-center">
-                                    <h4>room oke</h4>
-                                    <p>Photo</p>
-                                    <br>
-                                    <a href="#" class="mx-2">
-                                        <img src="img/zoom.png" alt="">
-                                    </a>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off3.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>room oke</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
 
-                                    <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
-                                        <img src="img/visit.png" alt="">
-                                    </a>
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-                    </figure>
+                    </div>
+                </div>
+                <!-- web -->
+                <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Latihan baru</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web2.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>dev shop</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/web3.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Bootstrao</h4>
+                                            <p>Web</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <!--app  -->
+                <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Shop</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp2.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Dashboard</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/hp3.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>UIUX login</h4>
+                                            <p>Apps</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <!-- design -->
+                <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/ayu.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Brosur wom</h4>
+                                            <p>Desgin</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/doni brosur1.png" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Brosur</h4>
+                                            <p>Design</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/dika.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Kaos</h4>
+                                            <p>Design</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <!-- photo -->
+                <div class="tab-pane fade" id="pills-photo" role="tabpanel" aria-labelledby="pills-photo-tab">
+                    <div class="row d-fex justify-content-center">
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off1.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>kantor okela</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off2.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>Room mantap</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="col-md p-3">
+                            <figure class="figure">
+                                <div class="figure-img">
+                                    <img src="img/off3.jpg" class="figure-img img-fluid rounded" alt="">
+                                    <div class="konteks d-flex justify-content-center">
+                                        <div class="titel align-self-center text-center">
+                                            <h4>room oke</h4>
+                                            <p>Photo</p>
+                                            <br>
+                                            <a href="#" class="mx-2">
+                                                <img src="img/zoom.png" alt="">
+                                            </a>
+
+                                            <a href="#" class="mx-2" target="_blank" rel="noopener noreferrer">
+                                                <img src="img/visit.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section class="halkontak" id="halkontak">
         <div class="container">
