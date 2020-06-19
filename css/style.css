@@ -249,11 +249,7 @@ body {
     border-radius: 100px;
 }
 
-.hallayanan .cdlyn:hover {
-    -webkit-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
-    box-shadow: 0px 7px 28px 5px rgba(255, 255, 255, 1);
-}
+
 
 .halkontak {
     padding-top: 100px;
@@ -277,9 +273,13 @@ footer {
 }
 
 .fotlog {
-    width: 80px;
+    width: 190px;
 }
 
 .subcribe input {
     border-radius: 30px;
+}
+
+.lang {
+    width: 26px;
 }
